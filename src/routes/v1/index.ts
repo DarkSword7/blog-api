@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
     message: 'Welcome to the Blog API',
     status: 'ok',
     version: '1.0.0',
-    docs: 'null',
+    docs: 'https://ashutosh-3.gitbook.io/blog-api',
     timestanp: new Date().toISOString(),
   });
 });
